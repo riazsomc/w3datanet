@@ -51,7 +51,7 @@ body {
 /* Mobile First Navigation */
 
 .site-nav {
-    display: none;
+    display: none !important;;
     flex-direction: column;
     width: 100%;
     margin-top: 10px;
@@ -76,7 +76,7 @@ body {
 /* When menu opened */
 
 .site-nav.active {
-    display: flex;
+    display: flex !important;;
 }
 
 /* Desktop Layout */
@@ -84,7 +84,7 @@ body {
 @media (min-width: 769px) {
 
     .site-nav {
-        display: flex;
+        display: flex !important;
         flex-direction: row;
         margin-top: 0;
         width: auto;
