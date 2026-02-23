@@ -53,7 +53,18 @@ body {
     border-bottom: 2px solid #000;
     padding-bottom: 3px;
 }
+.site-content h3 {
+    font-size: 18px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
 
+.site-content hr {
+    border: none;
+    border-top: 1px solid #eee;
+    margin: 40px 0;
+}
 /* Mobile First Navigation */
 
 .site-nav {
