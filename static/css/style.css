@@ -48,44 +48,58 @@ body {
     color: #000;
 }
 
-/* Mobile Nav Fix */
+/* Mobile First Navigation */
+
+.site-nav {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.site-nav a {
+    margin: 10px 0;
+    text-decoration: none;
+    color: #444;
+    font-size: 14px;
+}
 
 .nav-toggle {
-    display: none;
+    display: block;
     font-size: 22px;
     background: none;
     border: none;
     cursor: pointer;
+    margin-left: 10px;
 }
 
-.site-nav {
+/* When menu opened */
+
+.site-nav.active {
     display: flex;
 }
 
-@media (max-width: 768px) {
+/* Desktop Layout */
 
-    .header-flex {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .nav-toggle {
-        display: block;
-        margin-top: 10px;
-    }
+@media (min-width: 769px) {
 
     .site-nav {
-        display: none;
-        flex-direction: column;
-        width: 100%;
-        margin-top: 10px;
+        display: flex;
+        flex-direction: row;
+        margin-top: 0;
+        width: auto;
     }
 
     .site-nav a {
-        margin: 10px 0;
+        margin-left: 20px;
     }
 
-    .site-nav.active {
-        display: flex;
+    .nav-toggle {
+        display: none;
+    }
+
+    .header-flex {
+        flex-direction: row;
+        align-items: center;
     }
 }
