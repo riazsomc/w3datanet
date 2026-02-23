@@ -181,3 +181,29 @@ body {
         align-items: center;
     }
 }
+
+/* Insights */
+.insight-article h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.insight-meta {
+    font-size: 13px;
+    color: #777;
+    margin-bottom: 30px;
+}
+
+.insight-content {
+    line-height: 1.7;
+    font-size: 15px;
+}
+
+.insight-content h2 {
+    font-size: 20px;
+    margin-top: 35px;
+}
+
+.tag {
+    color: #555;
+}
