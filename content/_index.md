@@ -3,7 +3,9 @@ title: "Home"
 ---
 
 ## Dr. B. M. Riazul Islam  
-### Digital Health • Information Systems • AI Architecture
+<p class="tagline">
+  Digital Health • Information Systems • AI Architecture
+</p>
 
 I work at the intersection of healthcare, information architecture, and secure digital systems.
 
