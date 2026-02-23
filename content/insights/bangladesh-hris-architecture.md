@@ -1,5 +1,6 @@
 ---
 title: "Bangladesh HRIS: Design of a Living Health Workforce Registry"
+date: 2026-02-24
 description: "Structural design principles behind Bangladesh’s Human Resource Information System (HRIS) and its evolution into a national provider and facility registry foundation"
 ---
 
