@@ -1,5 +1,6 @@
 ---
 title: "Projects"
+description: "Selected projects spanning AI systems, digital health platforms, interoperability frameworks, and secure infrastructure"
 ---
 
 ### Self-Hosted AI & Knowledge Systems Architecture
