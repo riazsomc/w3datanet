@@ -1,5 +1,6 @@
 ---
 title: "Publications"
+description: "Research publications, journal articles, and technical reports in digital health, AI systems, and health informatics"
 ---
 
 ### Peer-Reviewed Research
