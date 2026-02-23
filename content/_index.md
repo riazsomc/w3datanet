@@ -29,7 +29,10 @@ This website presents selected independent technical work, research activities, 
 
 For detailed information, please explore:
 
-→ **[Profile](/profile/)**  
-→ **[Work](/work/)**  
-→ **[Projects](/projects/)**  
-→ **[Publications](/publications/)**
+<p>
+For detailed information, please explore 
+→ <a href="/profile/">professional background</a>, 
+→ <a href="/work/">areas of work</a>, 
+→ <a href="/projects/">technical projects</a>, and 
+→ <a href="/publications/">research & publications</a>.
+</p>
