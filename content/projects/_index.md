@@ -45,3 +45,26 @@ Technical contributions to classification systems, metadata dictionaries, termin
 ### Infrastructure & Virtualization Engineering
 
 Design and management of virtualization environments, infrastructure resilience strategies, and system performance optimization across distributed services.
+
+---
+
+### Selected Public & Independent Work
+
+While many professional engagements involve institutional and security-sensitive systems not suitable for public disclosure, selected independent and open-source work is available below.
+
+• **Production RAG Knowledge Platform (Live System)**  
+https://en.info.shr.dghs.gov.bd
+
+• **DMARC Dashboard for Email Security**  
+https://github.com/riazsomc/dmarc-dashboard
+
+• **Roundcube Active Sessions Plugin**  
+https://github.com/riazsomc/active_sessions
+
+• **ICD-10 to ICD-11 Mapping Utility**  
+https://github.com/riazsomc/icd10to11mapping
+
+• **Bangla RAG Framework Research (Zenodo)**  
+https://doi.org/10.5281/zenodo.17445739
+
+---
