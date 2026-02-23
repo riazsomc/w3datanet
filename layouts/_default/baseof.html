@@ -5,6 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ .Title }} | {{ .Site.Title }}</title>
     <link rel="stylesheet" href="/css/style.css?v={{ now.Unix }}">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "@id": "https://w3datanet.com/#person",
+      "name": "Dr. B. M. Riazul Islam",
+      "url": "https://w3datanet.com/",
+      "image": "https://w3datanet.com/images/profile.jpg",
+      "jobTitle": "Physician & Digital Health Systems Architect",
+      "sameAs": [
+        "https://linkedin.com/in/riazsomc44",
+        "https://github.com/riazsomc"
+      ],
+      "knowsAbout": [
+        "Digital Health",
+        "Health Information Systems",
+        "Health Data Interoperability",
+        "ICD-11 Implementation",
+        "AI Architecture",
+        "Retrieval-Augmented Generation",
+        "Information Architecture",
+        "Secure Infrastructure",
+        "Health Data Governance"
+      ]
+    }
+    </script>
     <meta name="description" content="{{ with .Params.description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
     <meta name="author" content="{{ .Site.Params.author }}">
     <meta property="og:title" content="{{ .Title }}">
