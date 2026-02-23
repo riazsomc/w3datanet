@@ -8,10 +8,33 @@ title: "Publications"
 
 Published in *BMC Health Services Research*.
 
-This work examined the policy, governance, and implementation dynamics of digital human resource management systems within a national public health context.
+This study examined governance, policy alignment, and implementation dynamics of digital human resource management systems within a national public health infrastructure.
 
 🔗 https://bmchealthservres.biomedcentral.com/articles/10.1186/s12913-021-07304-4
 
+---
+
+### Research & Technical Reports
+
+**Toward a Bangla Retrieval Augmented Generation Framework for Public Health: Design and Preliminary Evaluation**
+
+Published via *Zenodo*.
+
+This whitepaper proposed a domain-grounded Bangla Retrieval-Augmented Generation (RAG) framework designed for high-reliability public health knowledge systems, focusing on factual consistency, controlled generation, and institutional knowledge integration.
+
+📄 DOI: 10.5281/zenodo.17445739
+
+---
+
+### Research Preprint
+
+**A web-scraped skin image database of monkeypox, chickenpox, smallpox, cowpox, and measles**
+
+Published on *bioRxiv*.
+
+Introduced a publicly accessible dermatological image dataset supporting supervised machine learning research for differential diagnosis of visually similar infectious diseases.
+
+📄 DOI: 10.1101/2022.08.01.502199
 ---
 
 ### Editorial & Knowledge Contributions
@@ -22,15 +45,15 @@ Co-Editor — 2022
 Co-Editor — 2023  
 Managing Editor — 2024  
 
-Contributed to the development, structuring, validation, and dissemination of national-scale health statistics and analytical narratives supporting policy, planning, and public health decision-making.
+Contributed to national-scale structuring, validation, and dissemination of health statistics and analytical narratives supporting policy and planning.
 
 ---
 
 ### Knowledge & Systems Orientation
 
-Professional contributions emphasize the intersection of:
+Professional work centers on:
 
-• Health Systems & Policy  
-• Digital Health & Information Architecture  
-• Data Governance & Standards  
-• Institutional Knowledge Systems  
+• Digital Health Systems  
+• Information Architecture & Data Standards  
+• AI & Retrieval-Augmented Knowledge Systems  
+• Health Data Governance  
