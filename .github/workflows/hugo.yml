@@ -1,1 +1,22 @@
+name: Build Hugo Site
 
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Install Hugo
+        run: |
+          sudo apt-get update
+          sudo apt-get install hugo -y
+
+      - name: Build Site
+        run: hugo
