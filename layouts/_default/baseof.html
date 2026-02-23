@@ -14,14 +14,22 @@
 <body>
 
 <header class="site-header">
-    <div class="container header-flex">
-        <h1 class="site-title">{{ .Site.Title }}</h1>
+    <div class="container">
 
-        <nav class="site-nav">
-            {{ range .Site.Menus.main }}
-                <a href="{{ .URL }}">{{ .Name }}</a>
-            {{ end }}
-        </nav>
+        <div class="header-flex">
+            <h1 class="site-title">{{ .Site.Title }}</h1>
+
+            <button class="nav-toggle" aria-label="Toggle Menu">
+                ☰
+            </button>
+
+            <nav class="site-nav">
+                {{ range .Site.Menus.main }}
+                    <a href="{{ .URL }}">{{ .Name }}</a>
+                {{ end }}
+            </nav>
+        </div>
+
     </div>
 </header>
 
