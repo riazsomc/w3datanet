@@ -1,3 +1,28 @@
 baseURL: "https://w3datanet.com/"
 languageCode: "en-us"
 title: "W3DataNet"
+menu:
+  main:
+    - name: Home
+      url: /
+      weight: 1
+
+    - name: Profile
+      url: /profile/
+      weight: 2
+
+    - name: Work
+      url: /work/
+      weight: 3
+
+    - name: Projects
+      url: /projects/
+      weight: 4
+
+    - name: Publications
+      url: /publications/
+      weight: 5
+
+    - name: Contact
+      url: /contact/
+      weight: 6
