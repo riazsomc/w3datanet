@@ -8,7 +8,7 @@
         {{ .Content }}
     </div>
 
-    {{ range .Pages }}
+    {{ range .RegularPages }}
 
         <article class="insight-summary">
             <h2>
@@ -22,7 +22,7 @@
             </div>
 
             <p>
-                {{ .Summary }}
+                {{ .Summary | plainify | truncate 160 }}
             </p>
         </article>
 
