@@ -1,5 +1,6 @@
 ---
 title: "Contact"
+description: "Professional contact and collaboration information for Dr. B. M. Riazul Islam — Digital Health, AI Systems, and Information Architecture"
 ---
 
 I welcome professional communication, research collaboration, and technical discussions related to digital health, information systems, and AI-driven knowledge platforms.
