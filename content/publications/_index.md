@@ -35,6 +35,7 @@ Published on *bioRxiv*.
 Introduced a publicly accessible dermatological image dataset supporting supervised machine learning research for differential diagnosis of visually similar infectious diseases.
 
 📄 DOI: 10.1101/2022.08.01.502199
+
 ---
 
 ### Editorial & Knowledge Contributions
