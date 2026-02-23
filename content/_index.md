@@ -37,7 +37,7 @@ He is actively engaged in research and technical development, with outputs inclu
 
 For detailed information, please explore:
 
-→ <a href="/profile/">professional background</a>,  
-→ <a href="/work/">areas of work</a>,  
-→ <a href="/projects/">technical projects</a>, and  
-→ <a href="/publications/">research & publications</a>.
+* → [professional background](/profile/)
+* → [areas of work](/work/)
+* → [technical projects](/projects/)
+* → [research & publications](/publications/)
