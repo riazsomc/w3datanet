@@ -1,0 +1,33 @@
+{{ define "main" }}
+
+<section class="insights-list">
+
+    <h1>{{ .Title }}</h1>
+
+    <div class="insights-intro">
+        {{ .Content }}
+    </div>
+
+    {{ range .Pages }}
+
+        <article class="insight-summary">
+            <h2>
+                <a href="{{ .RelPermalink }}">
+                    {{ .Title }}
+                </a>
+            </h2>
+
+            <div class="insight-meta">
+                {{ .Date.Format "January 2, 2006" }}
+            </div>
+
+            <p>
+                {{ .Summary }}
+            </p>
+        </article>
+
+    {{ end }}
+
+</section>
+
+{{ end }}
