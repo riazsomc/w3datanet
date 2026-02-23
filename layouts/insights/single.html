@@ -1,0 +1,25 @@
+{{ define "main" }}
+
+<article class="insight-article">
+
+    <header class="insight-header">
+        <h1>{{ .Title }}</h1>
+
+        <div class="insight-meta">
+            <span>{{ .Date.Format "January 2, 2006" }}</span>
+            {{ with .Params.tags }}
+                •
+                {{ range . }}
+                    <span class="tag">{{ . }}</span>
+                {{ end }}
+            {{ end }}
+        </div>
+    </header>
+
+    <div class="insight-content">
+        {{ .Content }}
+    </div>
+
+</article>
+
+{{ end }}
