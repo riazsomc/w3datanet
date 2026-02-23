@@ -4,6 +4,8 @@ title: "Profile"
 
 Dr. B. M. Riazul Islam is a physician working at the intersection of healthcare systems, digital health architecture, interoperability frameworks, and infrastructure engineering.
 
+He is currently serving as the National Focal Person for ICD-11 implementation in Bangladesh, contributing to classification systems, terminology governance, and standards-driven health information ecosystems.
+
 His work focuses on the design and evolution of large-scale information ecosystems, identity-aware systems, and standards-driven health data platforms.
 
 ---
