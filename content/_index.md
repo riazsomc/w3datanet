@@ -27,12 +27,17 @@ This website presents selected independent technical work, research activities, 
 
 ---
 
+### Professional & Research Contributions
+
+His professional activities include contributions to national-scale digital health systems, interoperability frameworks, and standards-driven information architectures.
+
+He is actively engaged in research and technical development, with outputs including peer-reviewed publications, open research datasets, and DOI-indexed technical reports.
+
+---
+
 For detailed information, please explore:
 
-<p>
-For detailed information, please explore 
-→ <a href="/profile/">professional background</a>, 
-→ <a href="/work/">areas of work</a>, 
-→ <a href="/projects/">technical projects</a>, and 
+→ <a href="/profile/">professional background</a>,  
+→ <a href="/work/">areas of work</a>,  
+→ <a href="/projects/">technical projects</a>, and  
 → <a href="/publications/">research & publications</a>.
-</p>
