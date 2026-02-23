@@ -1,19 +1,14 @@
----
-title: "Home"
----
-
 ## Dr. B. M. Riazul Islam  
-<p class="tagline">
-  Digital Health • Information Systems • AI Architecture
-</p>
 
-I work at the intersection of healthcare, information architecture, and secure digital systems.
+### Digital Health • Information Systems • AI Architecture
 
-My professional focus includes national-scale digital health platforms, interoperability frameworks, health data governance, and AI-driven knowledge systems.
+Dr. Islam works at the intersection of healthcare, information architecture, and secure digital systems.
+
+His professional focus includes national-scale digital health platforms, interoperability frameworks, health data governance, and AI-driven knowledge systems.
 
 ---
 
-This website presents my independent technical work, research activities, and selected projects across digital health, infrastructure design, and applied AI.
+This website presents selected independent technical work, research activities, and projects spanning digital health, infrastructure design, and applied artificial intelligence.
 
 ---
 
