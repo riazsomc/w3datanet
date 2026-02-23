@@ -1,5 +1,6 @@
 ---
 title: "Profile"
+description: "Professional profile of Dr. B. M. Riazul Islam — Digital Health, Interoperability, and Systems Architecture"
 ---
 
 Dr. B. M. Riazul Islam is a physician working at the intersection of healthcare systems, digital health architecture, interoperability frameworks, and infrastructure engineering.
