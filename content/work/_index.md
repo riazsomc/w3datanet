@@ -1,5 +1,6 @@
 ---
 title: "Work"
+description: "Professional experience and institutional roles of Dr. B. M. Riazul Islam — Digital Health Systems, Health Information Architecture, and National Platforms"
 ---
 
 ### Current Role
