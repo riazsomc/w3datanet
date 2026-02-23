@@ -1,5 +1,6 @@
 ---
 title: "Home"
+description: "Dr. B. M. Riazul Islam — Digital Health, Information Systems, AI Architecture, and Infrastructure Engineering"
 ---
 
 ## Dr. B. M. Riazul Islam  
