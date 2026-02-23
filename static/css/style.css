@@ -15,6 +15,16 @@ body {
     padding: 50px 24px;             /* ✅ Better breathing space */
 }
 
+.site-title img {
+    height: 34px;        /* ✅ controls visual size */
+    width: auto;
+    display: block;
+}
+
+.site-title a {
+    text-decoration: none;
+}
+
 /* Header */
 
 .site-header {
