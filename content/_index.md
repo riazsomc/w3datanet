@@ -24,7 +24,7 @@ This website presents selected independent technical work, research activities, 
 
 For detailed information, please explore:
 
-→ **Profile**  
-→ **Work**  
-→ **Projects**  
-→ **Publications**
+→ **[Profile](/profile/)**  
+→ **[Work](/work/)**  
+→ **[Projects](/projects/)**  
+→ **[Publications](/publications/)**
