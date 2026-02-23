@@ -26,3 +26,11 @@ menu:
     - name: Contact
       url: /contact/
       weight: 6
+params:
+  description: "Professional profile of Dr. B. M. Riazul Islam — physician, digital health architect, and systems engineer."
+
+  author: "Dr. B. M. Riazul Islam"
+
+  social:
+    github: "https://github.com/riazsomc"
+    linkedin: "https://linkedin.com/in/riazsomc44"
