@@ -1,3 +1,7 @@
+---
+title: "Home"
+---
+
 ## Dr. B. M. Riazul Islam  
 
 ### Digital Health • Information Systems • AI Architecture
