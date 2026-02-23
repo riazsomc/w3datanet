@@ -19,13 +19,17 @@ menu:
       url: /projects/
       weight: 4
 
+    - name: Insights
+      url: /Insights/
+      weight: 5
+      
     - name: Publications
       url: /publications/
-      weight: 5
+      weight: 6
 
     - name: Contact
       url: /contact/
-      weight: 6
+      weight: 7
 params:
   description: "Professional profile of Dr. B. M. Riazul Islam — physician, digital health architect, and systems engineer."
 
