@@ -33,7 +33,8 @@ body {
 .site-content h2 {
     font-size: 28px;
     margin-top: 0;
-    letter-spacing: -0.3px;         /* ✅ Cleaner typography */
+    margin-bottom: 8px;
+    letter-spacing: -0.3px;
 }
 
 .site-content h3 {
@@ -45,9 +46,12 @@ body {
 }
 
 /* Paragraphs */
-
+.site-content {
+    padding-top: 10px;
+}
 .site-content p {
-    color: #333;                    /* ✅ Slightly softer text */
+    max-width: 760px;
+    color: #333;
     margin: 10px 0;
 }
 
