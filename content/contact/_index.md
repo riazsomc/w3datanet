@@ -9,17 +9,29 @@ I welcome professional communication, research collaboration, and technical disc
 ### Professional Profiles
 
 🔗 **LinkedIn**  
+Connect professionally and view my experience  
 https://linkedin.com/in/riazsomc44
 
 🔗 **GitHub**  
+Explore projects, tools, and technical work  
 https://github.com/riazsomc
 
 ---
 
 ### Direct Communication
 
-📧 **Email**  
-riaz.somc@w3datanet.com
+📧 **Email**
+
+For professional collaboration, research discussions, digital health initiatives, or technology consulting inquiries:
+
+📧 riaz.somc@w3datanet.com
+
+I typically respond to relevant messages within a reasonable timeframe.
+
+---
+
+This website represents my independent professional and technical work.  
+For official government correspondence, please use appropriate institutional channels.
 
 ---
 
@@ -30,7 +42,3 @@ riaz.somc@w3datanet.com
 • AI / Retrieval-Augmented Generation (RAG)  
 • Interoperability & Standards  
 • Secure Infrastructure & System Design  
-
----
-
-For professional inquiries, collaborations, or consultations, please feel free to reach out.
