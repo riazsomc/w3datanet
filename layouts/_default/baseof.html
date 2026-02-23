@@ -24,13 +24,13 @@
                 ☰
             </button>
 
-            <nav class="site-nav">
-                {{ range .Site.Menus.main }}
-                    <a href="{{ .URL }}" 
-                       class="{{ if $.IsMenuCurrent "main" . }}active{{ end }}">
-                        {{ .Name }}
-                    </a>
-                {{ end }}
+           <nav class="site-nav">
+              {{ $p := .RelPermalink }}
+              {{ range .Site.Menus.main }}
+                {{ $u := .URL }}
+                {{ $active := or (eq $p $u) (and (ne $u "/") (hasPrefix $p $u)) }}
+                <a href="{{ $u }}" class="{{ if $active }}active{{ end }}">{{ .Name }}</a>
+              {{ end }}
             </nav>
         </div>
 
