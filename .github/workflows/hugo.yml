@@ -1,9 +1,12 @@
-name: Build Hugo Site
+name: Build and Publish Hugo Site
 
 on:
   push:
     branches:
       - main
+
+permissions:
+  contents: write
 
 jobs:
   build:
@@ -20,3 +23,11 @@ jobs:
 
       - name: Build Site
         run: hugo
+
+      - name: Publish to gh-pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+          publish_branch: gh-pages
+          force_orphan: true
