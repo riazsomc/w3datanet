@@ -8,7 +8,7 @@
         {{ .Content }}
     </div>
 
-    {{ range .Pages }}
+    {{ range where site.RegularPages "Section" "insights" }}
 
         <article class="insight-summary">
             <h2>
@@ -24,6 +24,7 @@
             <p>
                 {{ .Summary }}
             </p>
+
         </article>
 
     {{ end }}
