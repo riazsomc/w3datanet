@@ -252,8 +252,3 @@ body {
     font-size: 0.9em;
     display: inline-block;
 }
-
-/* Optional: Add a comma or separator via CSS */
-.tag:not(:last-child)::after {
-    content: ",";
-}
