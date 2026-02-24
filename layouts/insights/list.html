@@ -22,11 +22,12 @@
             </div>
 
             <p>
-                {{ .Summary }}
-
-                {{ if .Truncated }}
-                    <a href="{{ .RelPermalink }}" class="read-more">Read more...</a>
-                {{ end }}
+            {{ $truncated := .Content | plainify | strings.Truncate 200 }}
+            {{ $truncated }}
+        
+            {{ if gt (len (.Content | plainify)) 200 }}
+                <a href="{{ .RelPermalink }}" class="read-more">Read more...</a>
+            {{ end }}
             </p>
 
         </article>
