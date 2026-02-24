@@ -242,3 +242,18 @@ body {
 .read-more:hover {
     text-decoration: underline;
 }
+
+/* Add space between tags */
+.tag {
+    margin-right: 8px;
+    padding: 2px 8px;
+    background-color: #f0f0f0; /* Light grey background */
+    border-radius: 4px;        /* Rounded corners */
+    font-size: 0.9em;
+    display: inline-block;
+}
+
+/* Optional: Add a comma or separator via CSS */
+.tag:not(:last-child)::after {
+    content: ",";
+}
