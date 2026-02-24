@@ -274,3 +274,14 @@ body {
 .insight-summary {
     margin-bottom: 3rem; /* Space between the listed articles */
 }
+
+.insight-meta a.tag {
+    text-decoration: none; /* Removes the underline */
+    color: inherit;        /* Keeps the text color the same as the meta text */
+    transition: color 0.2s;
+}
+
+.insight-meta a.tag:hover {
+    color: #007bff;        /* Changes color only when the user hovers */
+    text-decoration: underline;
+}
