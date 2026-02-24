@@ -1,6 +1,6 @@
 ---
 title: "Health Data Quality: Beyond Systems, Toward Ownership"
-date: 2026-02-25
+date: 2026-02-25T00:40:00+06:00
 description: "Why health data quality is not purely a technical problem, and how data ownership, system design, and informatics literacy shape sustainable improvements in national health information ecosystems."
 tags: ["Health Data Quality", "Digital Health", "Health Informatics", "Information Systems", "Data Governance"]
 ---
