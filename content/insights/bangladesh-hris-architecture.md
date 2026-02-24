@@ -7,9 +7,9 @@ tags: ["Digital Health", "HRIS", "Provider Registry", "Information Architecture"
 
 ## Overview
 
-The Human Resource Information System (HRIS) of Bangladesh was initially developed as an operational workforce management system rather than a conventional digital health initiative.
+`The Human Resource Information System (HRIS) of Bangladesh was initially developed as an operational workforce management system rather than a conventional digital health initiative.
 
-Launched in 2016, the system was designed to support administrative workflows including postings, transfers, and sanctioned positions across the national health sector. This operational grounding established the conditions for long-term system sustainability and data reliability.
+Launched in 2016, the system was designed to support administrative workflows including postings, transfers, and sanctioned positions across the national health sector. This operational grounding established the conditions for long-term system sustainability and data reliability.`
 
 Rather than functioning as a static repository, HRIS evolved into a continuously maintained national registry driven by routine institutional use.
 
