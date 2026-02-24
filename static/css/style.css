@@ -263,3 +263,14 @@ body {
 .insight-summary {
     margin-bottom: 3rem; /* Space between the listed articles */
 }
+
+.tag-results h1 {
+    margin-bottom: 2rem;
+    color: #333;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+}
+
+.insight-summary {
+    margin-bottom: 3rem; /* Space between the listed articles */
+}
