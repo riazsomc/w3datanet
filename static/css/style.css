@@ -230,3 +230,15 @@ body {
     margin-bottom: 40px;
     color: #666;
 }
+
+.read-more {
+    display: inline-block;
+    margin-left: 5px;
+    font-weight: bold;
+    color: #007bff; /* Or your brand color */
+    text-decoration: none;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+}
