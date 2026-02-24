@@ -22,7 +22,7 @@
             </div>
 
             <p>
-                {{ .Summary }}
+                {{ .Content | plainify | strings.Truncate 150 }}
             </p>
 
         </article>
