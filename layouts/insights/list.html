@@ -26,7 +26,7 @@
             {{ $truncated }}
         
             {{ if gt (len (.Content | plainify)) 200 }}
-                <a href="{{ .RelPermalink }}" class="read-more">Read more...</a>
+                <a href="{{ .RelPermalink }}" class="read-more">Read more</a>
             {{ end }}
             </p>
 
