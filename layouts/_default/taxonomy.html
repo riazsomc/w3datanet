@@ -1,0 +1,31 @@
+{{ define "main" }}
+
+<section class="tag-results">
+    <h1>Articles tagged with: "{{ .Title }}"</h1>
+
+    <div class="insights-list">
+        {{ range .Pages }}
+            <article class="insight-summary">
+                <h2>
+                    <a href="{{ .RelPermalink }}">
+                        {{ .Title }}
+                    </a>
+                </h2>
+
+                <div class="insight-meta">
+                    {{ .Date.Format "January 2, 2006" }}
+                </div>
+
+                <p>
+                    {{ .Summary }}
+                </p>
+                
+                {{ if .Truncated }}
+                    <a href="{{ .RelPermalink }}" class="read-more">Read more...</a>
+                {{ end }}
+            </article>
+        {{ end }}
+    </div>
+</section>
+
+{{ end }}
