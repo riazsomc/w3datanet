@@ -37,7 +37,7 @@ He is actively engaged in research and technical development, with outputs inclu
 
 For detailed information, please explore:
 
-→ [professional background](/profile/)
-→ [areas of work](/work/)
-→ [technical projects](/projects/)
-→ [research & publications](/publications/)
+* [professional background](/profile/)
+* [areas of work](/work/)
+* [technical projects](/projects/)
+* [research & publications](/publications/)
