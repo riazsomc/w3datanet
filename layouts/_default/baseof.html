@@ -14,87 +14,77 @@
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "Person",
-      "@id": "https://w3datanet.com/#person",
-      "name": "Dr. B. M. Riazul Islam",
-      "url": "https://w3datanet.com/",
-      "image": "https://w3datanet.com/images/profile.jpg",
-      "jobTitle": "Physician & Digital Health Systems Architect",
-      "hasOccupation": {
-        "@type": "Occupation",
-        "name": "Physician",
-        "occupationLocation": {
-          "@type": "Country",
-          "name": "Bangladesh"
+      "@graph": [
+        {
+          "@type": "Person",
+          "@id": "https://w3datanet.com/#person",
+          "name": "Dr. B. M. Riazul Islam",
+          "url": "https://w3datanet.com/",
+          "image": "https://w3datanet.com/images/profile.jpg",
+          "jobTitle": "Physician & Digital Health Systems Architect",
+          "hasOccupation": {
+            "@type": "Occupation",
+            "name": "Physician",
+            "occupationLocation": {
+              "@type": "Country",
+              "name": "Bangladesh"
+            },
+            "skills": [
+              "Digital Health Systems",
+              "Health Information Systems",
+              "Health Data Interoperability",
+              "ICD-11 Implementation",
+              "Information Architecture",
+              "AI Architecture",
+              "Retrieval-Augmented Generation",
+              "Secure Infrastructure Design"
+            ]
+          },
+          "affiliation": {
+            "@type": "GovernmentOrganization",
+            "name": "Ministry of Health and Family Welfare",
+            "url": "https://mohfw.gov.bd/"
+          },
+          "sameAs": [
+            "https://linkedin.com/in/riazsomc44",
+            "https://github.com/riazsomc"
+          ],
+          "knowsAbout": [
+            "Digital Health", "Health Information Systems", "Health Data Interoperability", 
+            "ICD-11 Implementation", "AI Architecture", "Retrieval-Augmented Generation", 
+            "Information Architecture", "Secure Infrastructure", "Health Data Governance"
+          ]
         },
-        "skills": [
-          "Digital Health Systems",
-          "Health Information Systems",
-          "Health Data Interoperability",
-          "ICD-11 Implementation",
-          "Information Architecture",
-          "AI Architecture",
-          "Retrieval-Augmented Generation",
-          "Secure Infrastructure Design"
-        ]
-      },
-      "affiliation": {
-        "@type": "GovernmentOrganization",
-        "name": "Ministry of Health and Family Welfare",
-        "url": "https://mohfw.gov.bd/"
-      },
-      "sameAs": [
-        "https://linkedin.com/in/riazsomc44",
-        "https://github.com/riazsomc"
-      ],
-      "knowsAbout": [
-        "Digital Health",
-        "Health Information Systems",
-        "Health Data Interoperability",
-        "ICD-11 Implementation",
-        "AI Architecture",
-        "Retrieval-Augmented Generation",
-        "Information Architecture",
-        "Secure Infrastructure",
-        "Health Data Governance"
-      ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Organization",
-      "@id": "https://w3datanet.com/#organization",
-      "name": "W3DataNet",
-      "url": "https://w3datanet.com/",
-      "logo": "https://w3datanet.com/images/logo.png",
-      "founder": { "@id": "https://w3datanet.com/#person" },
-      "sameAs": [
-        "https://linkedin.com/in/riazsomc44",
-        "https://github.com/riazsomc"
-      ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
         {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "{{ .Site.BaseURL }}"
-        }
-        {{ if ne .RelPermalink "/" }}
-        ,
+          "@type": "Organization",
+          "@id": "https://w3datanet.com/#organization",
+          "name": "W3DataNet",
+          "url": "https://w3datanet.com/",
+          "logo": "https://w3datanet.com/images/logo.png",
+          "founder": { "@id": "https://w3datanet.com/#person" },
+          "sameAs": [
+            "https://linkedin.com/in/riazsomc44",
+            "https://github.com/riazsomc"
+          ]
+        },
         {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "{{ .Title }}",
-          "item": "{{ .Permalink }}"
+          "@type": "BreadcrumbList",
+          "@id": "https://w3datanet.com/insights/#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://w3datanet.com/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Insights",
+              "item": "https://w3datanet.com/insights/"
+            }
+          ]
         }
-        {{ end }}
       ]
     }
     </script>
