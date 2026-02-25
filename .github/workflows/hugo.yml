@@ -15,14 +15,18 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
+        with:
+          submodules: recursive  # Ensures themes in submodules are pulled
+          fetch-depth: 0         # Useful for Hugo's .Lastmod feature
 
-      - name: Install Hugo
-        run: |
-          sudo apt-get update
-          sudo apt-get install hugo -y
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: 'latest' # You can change 'latest' to a specific version like '0.123.0'
+          extended: true         # Enables SCSS/SASS support which most themes need
 
       - name: Build Site
-        run: hugo
+        run: hugo --gc --minify  # Cleans up unused cache and minifies files for speed
 
       - name: Publish to gh-pages
         uses: peaceiris/actions-gh-pages@v4
