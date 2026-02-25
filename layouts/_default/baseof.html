@@ -20,7 +20,6 @@
           "@id": "https://w3datanet.com/#person",
           "name": "Dr. B. M. Riazul Islam",
           "jobTitle": "Physician & Digital Health Systems Architect",
-          /* Adding medical specialty for E-E-A-T */
           "hasCredential": {
             "@type": "EducationalOccupationalCredential",
             "name": "MBBS"
@@ -42,7 +41,6 @@
           "url": "https://w3datanet.com/",
           "founder": { "@id": "https://w3datanet.com/#person" }
         },
-        /* Breadcrumbs Logic */
         {
           "@type": "BreadcrumbList",
           "@id": "{{ .Permalink }}#breadcrumb",
@@ -60,9 +58,8 @@
             {{ end }}
             {{ end }}
           ]
-        }
-        /* Specific Insight/Article Logic */
-        {{ if and (eq .Section "insights") (.IsPage) }}
+        } 
+        {{- if and (eq .Section "insights") (.IsPage) -}}
         ,{
           "@type": "Article",
           "@id": "{{ .Permalink }}#article",
@@ -74,7 +71,7 @@
           "description": {{ with .Params.description }}{{ . | jsonify }}{{ else }}{{ .Summary | plainify | safeHTML | jsonify }}{{ end }},
           "image": "https://w3datanet.com/images/og-preview.png"
         }
-        {{ end }}
+        {{- end -}}
       ]
     }
     </script>
