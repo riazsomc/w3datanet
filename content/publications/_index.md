@@ -23,7 +23,7 @@ Published via *Zenodo*.
 
 This whitepaper proposed a domain-grounded Bangla Retrieval-Augmented Generation (RAG) framework designed for high-reliability public health knowledge systems, focusing on factual consistency, controlled generation, and institutional knowledge integration.
 
-📄 DOI: 10.5281/zenodo.17445739
+📄 [DOI: 10.5281/zenodo.17445739](https://doi.org/10.5281/zenodo.17445739)
 
 ---
 
@@ -35,7 +35,7 @@ Published on *bioRxiv*.
 
 Introduced a publicly accessible dermatological image dataset supporting supervised machine learning research for differential diagnosis of visually similar infectious diseases.
 
-📄 DOI: 10.1101/2022.08.01.502199
+📄 [DOI: 10.1101/2022.08.01.502199](https://doi.org/10.1101/2022.08.01.502199)
 
 ---
 
