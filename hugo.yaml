@@ -2,7 +2,7 @@ baseURL: "https://w3datanet.com/"
 languageCode: "en-us"
 title: "W3DataNet"
 pagination:
-  pagerSize: 2
+  pagerSize: 5
 menu:
   main:
     - name: Home
