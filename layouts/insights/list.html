@@ -8,7 +8,9 @@
         {{ .Content }}
     </div>
 
-    {{ range where site.RegularPages "Section" "insights" }}
+        {{ $paginator := .Paginate (where site.RegularPages "Section" "insights") }}
+
+        {{ range $paginator.Pages }}
 
         <article class="insight-summary">
             <h2>
@@ -33,7 +35,17 @@
         </article>
 
     {{ end }}
+    <div class="pagination">
 
+        {{ if $paginator.HasPrev }}
+            <a href="{{ $paginator.Prev.URL }}">← Newer</a>
+        {{ end }}
+
+        {{ if $paginator.HasNext }}
+            <a href="{{ $paginator.Next.URL }}">Older →</a>
+        {{ end }}
+
+    </div>
 </section>
 
 {{ end }}
