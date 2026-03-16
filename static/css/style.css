@@ -389,13 +389,13 @@ body {
     border-radius: 4px;
     text-decoration: none;
     font-weight: 500;
-    transition: background-color 0.2s;
+    transition: background-color 0.2s, color 0.2s;
 }
 
 .read-more:hover {
     background-color: #0056b3; /* Darker blue on hover */
     text-decoration: none;
-    color: #fff;
+    color: #e0e0e0; /* Slightly off-white on hover */
 }
 
 /* 5. Styling for the New Pagination */
