@@ -285,3 +285,19 @@ body {
     color: #007bff;        /* Changes color only when the user hovers */
     text-decoration: underline;
 }
+
+.pagination {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.pagination a {
+    text-decoration: none;
+    color: #444;
+}
+
+.pagination a:hover {
+    color: #000;
+}
