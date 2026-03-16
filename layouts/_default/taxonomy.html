@@ -4,7 +4,9 @@
     <h1>Articles tagged with: "{{ .Title }}"</h1>
 
     <div class="insights-list">
-        {{ range .Pages }}
+        {{ $paginator := .Paginate (where site.RegularPages "Section" "insights") }}
+
+        {{ range $paginator.Pages }}
             <article class="insight-summary">
                 <h2>
                     <a href="{{ .RelPermalink }}">
@@ -26,6 +28,17 @@
                 </p>
             </article>
         {{ end }}
+    </div>
+    <div class="pagination">
+
+        {{ if $paginator.HasPrev }}
+            <a href="{{ $paginator.Prev.URL }}">← Newer</a>
+        {{ end }}
+
+        {{ if $paginator.HasNext }}
+            <a href="{{ $paginator.Next.URL }}">Older →</a>
+        {{ end }}
+
     </div>
 </section>
 
