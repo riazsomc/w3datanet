@@ -1,6 +1,30 @@
 {{ define "main" }}
-    <article>
-        <h2>{{ .Title }}</h2>
-        {{ .Content }}
-    </article>
+    {{ $sections := split .Content "<hr>" }}
+
+    <div class="hero">
+        {{ index $sections 0 | safeHTML }}
+    </div>
+
+    <div class="home-intro">
+        {{ index $sections 1 | safeHTML }}
+    </div>
+
+    <hr>
+
+    <div class="core-areas">
+        {{ index $sections 2 | safeHTML }}
+    </div>
+
+    <hr>
+
+    <div class="professional-contributions">
+        {{ index $sections 3 | safeHTML }}
+    </div>
+    
+    <hr>
+
+    <div class="cta-links">
+        {{ index $sections 4 | safeHTML }}
+    </div>
+
 {{ end }}
