@@ -36,15 +36,25 @@
 
     {{ end }}
     <div class="pagination">
-
+    
         {{ if $paginator.HasPrev }}
             <a href="{{ $paginator.Prev.URL }}">← Newer</a>
         {{ end }}
-
+    
+        {{ range $paginator.Pagers }}
+    
+            {{ if eq . $paginator }}
+                <span class="current">{{ .PageNumber }}</span>
+            {{ else }}
+                <a href="{{ .URL }}">{{ .PageNumber }}</a>
+            {{ end }}
+    
+        {{ end }}
+    
         {{ if $paginator.HasNext }}
             <a href="{{ $paginator.Next.URL }}">Older →</a>
         {{ end }}
-
+    
     </div>
 </section>
 
