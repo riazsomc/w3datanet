@@ -35,7 +35,7 @@
         </article>
 
     {{ end }}
-    <!-- <div class="pagination">
+    <div class="pagination">
     
         {{ if $paginator.HasPrev }}
             <a href="{{ $paginator.Prev.URL }}">← Newer</a>
@@ -55,17 +55,6 @@
             <a href="{{ $paginator.Next.URL }}">Older →</a>
         {{ end }}
     
-    </div> -->
-    <div class="pagination">
-
-        {{ if $paginator.HasPrev }}
-            <a href="{{ $paginator.Prev.URL }}">← Newer</a>
-        {{ end }}
-
-        {{ if $paginator.HasNext }}
-            <a href="{{ $paginator.Next.URL }}">Older →</a>
-        {{ end }}
-
     </div>
 </section>
 

@@ -341,3 +341,89 @@ body {
         margin-left: 8px;
     }
 }
+
+/* --- Insight Listing Page Visual Upgrade --- */
+
+/* 1. Card-based Layout for Insight Summaries */
+.insight-summary {
+    border: 1px solid #e0e0e0;      /* A lighter border */
+    border-radius: 8px;                /* Softer, more modern rounded corners */
+    padding: 24px;                     /* More internal spacing */
+    margin-bottom: 2rem;               /* Keep the existing vertical spacing */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05); /* Subtle shadow for a "lifting" effect */
+    transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out; /* Smooth transition */
+}
+
+/* 2. Hover Effect for Cards */
+.insight-summary:hover {
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1); /* A more pronounced shadow on hover */
+    transform: translateY(-3px);           /* A slight lift effect */
+}
+
+/* 3. Improved Typography within Cards */
+.insight-summary h2 {
+    font-size: 22px;        /* Larger title for better hierarchy */
+    margin-top: 0;
+}
+
+.insight-summary h2 a {
+    text-decoration: none; /* Remove underline from title */
+}
+
+.insight-summary .insight-meta {
+    font-size: 14px; /* Slightly larger meta text */
+    margin-bottom: 16px;
+}
+
+.insight-summary p {
+    font-size: 16px; /* Larger paragraph text for readability */
+    color: #444;    /* Slightly lighter text color for the summary */
+}
+
+/* 4. Enhanced "Read More" Button */
+.read-more {
+    display: inline-block;
+    padding: 6px 12px;
+    background-color: #007bff; /* Use the existing accent color */
+    color: #fff;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background-color 0.2s;
+}
+
+.read-more:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    text-decoration: none;
+    color: #fff;
+}
+
+/* 5. Styling for the New Pagination */
+.pagination {
+    display: flex;
+    justify-content: center; /* Center the pagination controls */
+    align-items: center;
+    margin-top: 40px;
+}
+
+.pagination a, .pagination span {
+    padding: 8px 16px;
+    margin: 0 4px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #333;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.pagination a:hover {
+    background-color: #f0f0f0;
+    color: #000;
+}
+
+.pagination .current {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+    font-weight: bold;
+}
