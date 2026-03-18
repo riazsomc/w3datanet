@@ -24,10 +24,10 @@
             </div>
 
             <p>
-            {{ $truncated := .Content | plainify | strings.Truncate 170 }}
+            {{ $truncated := .Content | plainify | strings.Truncate 200 }}
             {{ $truncated }}
         
-            {{ if gt (len (.Content | plainify)) 170 }}
+            {{ if gt (len (.Content | plainify)) 200 }}
                 <a href="{{ .RelPermalink }}" class="read-more">Read more</a>
             {{ end }}
             </p>
