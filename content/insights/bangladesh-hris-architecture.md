@@ -75,3 +75,10 @@ Operational dependence, structural clarity, and governance alignment collectivel
 The HRIS experience demonstrates that registry stability is primarily driven by institutional integration rather than technology deployment alone.
 
 Systems embedded within routine decision-making processes naturally evolve into living registries capable of supporting interoperability, analytics, and identity-aware digital ecosystems.
+
+---
+
+## Related Insights
+
+- [Health Data Quality: Beyond Systems, Toward Ownership](/insights/health-data-quality-ownership/)
+- [Building Digital Health Infrastructure in Bangladesh: Standards, Architecture, and Digital Public Goods](/insights/digital-health-architecture-bangladesh/)

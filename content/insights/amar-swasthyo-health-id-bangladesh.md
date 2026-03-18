@@ -129,3 +129,10 @@ It refers to the digital health identity that allows access to personal health r
 
 ### Can children get a health ID?
 Yes, individuals under 18 can register using their Birth Registration Number (BRN).
+
+---
+
+## Related Insights
+
+- [Building Digital Health Infrastructure in Bangladesh: Standards, Architecture, and Digital Public Goods](/insights/digital-health-architecture-bangladesh/)
+- [HRIS and National Health Registries in Bangladesh](/insights/bangladesh-hris-architecture/)
