@@ -43,9 +43,9 @@ Introduced a publicly accessible dermatological image dataset supporting supervi
 
 **Annual Health Bulletin — Directorate General of Health Services (DGHS), Bangladesh**
 
-Co-Editor — 2022  
-Co-Editor — 2023  
-Managing Editor — 2024  
+Co-Editor — [2022](https://old.dghs.gov.bd/images/docs/vpr/LHB_2022_6_2_2024.pdf)  
+Co-Editor — [2023](https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-dghs/2024/12/186aa25dee52477a817cb494853355d4.pdf)  
+Managing Editor — [2024](https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-dghs/2026/1/533625a6-ef61-4046-b875-ee91bad77a92.pdf)  
 
 Contributed to national-scale structuring, validation, and dissemination of health statistics and analytical narratives supporting policy and planning.
 
