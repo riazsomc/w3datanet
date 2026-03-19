@@ -5,7 +5,6 @@ description: "Practical lessons from Bangladesh’s early ICD-11 pilot across si
 tags: ["ICD-11", "Digital Health", "Health Information Systems", "Interoperability", "Health Data Standards"]
 ---
 
-# ICD-11 Implementation in Bangladesh: Lessons from the First National Pilot
 This article describes Bangladesh’s early experience implementing ICD-11 across multiple hospital information systems and the practical lessons learned from the first national pilot.
 
 In late 2023, Bangladesh began transitioning from ICD-10 to ICD-11 with the goal of modernizing the national [health information system](/work/), strengthening national [digital health infrastructure](/projects) and improving disease classification and reporting. To explore practical implementation pathways, a pilot phase was launched in six hospitals using two different approaches based on the existing digital infrastructure of the facilities.
