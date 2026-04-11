@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>national-fhir-infrastructure-bangladesh.md</title>
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+    
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+html,footer,header{
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Custom MD PDF CSS
+ */
+html,footer,header{
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+
+ }
+body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+<link rel="stylesheet" href="file:///Users/dr.b.m.riazulislam/Desktop/Python-projects/w3datanet/R%3A%5C2.Travail%5C1.Enseignement%5CCours%5C_1.Outils%5C2.Developpement%5C1.SCSS%5Cmain.css" type="text/css"><link rel="stylesheet" href="file:///Users/dr.b.m.riazulislam/Desktop/Python-projects/w3datanet/D%3A%5Crdaros%5CCours%5C_1.Outils%5C2.Developpement%5C1.SCSS%5Cmain.css" type="text/css">
+</head>
+
+<body>
+    <h1 id="national-fhir-infrastructure-in-bangladesh-architecture-standards-and-validation-approach">National FHIR Infrastructure in Bangladesh: Architecture, Standards, and Validation Approach</h1>
+<p>This article describes Bangladesh’s emerging national FHIR-based health data infrastructure and the architectural approach used to enable standardized, interoperable, and clinically validated health data exchange across systems.</p>
+<p>Rather than treating interoperability as an optional integration layer, the system positions it as a <strong>core national infrastructure</strong>, enabling consistent data exchange between healthcare providers, laboratories, and national platforms.</p>
+<hr>
+<h2 id="interoperability-as-a-core-design-principle">Interoperability as a Core Design Principle</h2>
+<p>Bangladesh has adopted <strong>FHIR R4 (Fast Healthcare Interoperability Resources)</strong> as the foundation for syntactic interoperability.</p>
+<p>FHIR enables:</p>
+<ul>
+<li>Standardized data exchange across heterogeneous systems</li>
+<li>API-driven communication between platforms</li>
+<li>Structured representation of clinical resources</li>
+</ul>
+<p>This allows different systems—including hospital information systems, laboratory platforms, and national registries—to communicate using a unified data model.</p>
+<hr>
+<h2 id="national-implementation-guide-bd-core-ig">National Implementation Guide (BD-Core IG)</h2>
+<p>To ensure consistency across implementations, a <strong>national FHIR Implementation Guide (BD-Core IG)</strong> has been defined.</p>
+<p>The Implementation Guide:</p>
+<ul>
+<li>Defines country-specific FHIR profiles</li>
+<li>Standardizes how clinical data is structured and exchanged</li>
+<li>Aligns system implementations with national requirements</li>
+</ul>
+<p>Core profiles include:</p>
+<ul>
+<li>Patient</li>
+<li>Encounter</li>
+<li>Observation</li>
+<li>Condition</li>
+<li>Immunization</li>
+<li>Organization and Practitioner</li>
+</ul>
+<p>This ensures that all participating systems adhere to a <strong>shared data standard</strong>, preventing fragmentation.</p>
+<hr>
+<h2 id="terminology-as-a-national-service">Terminology as a National Service</h2>
+<p>In addition to structural interoperability, Bangladesh has implemented a centralized terminology approach using a national terminology service.</p>
+<p>This service ensures that:</p>
+<ul>
+<li>All clinical codes are validated against approved standards</li>
+<li>Systems do not directly depend on raw terminology sources</li>
+<li>Terminology usage is consistent across the ecosystem</li>
+</ul>
+<p>Within this framework, the following global standards are adopted:</p>
+<hr>
+<h3 id="clinical-classification--icd-11">Clinical Classification — ICD-11</h3>
+<p>ICD-11 is used for:</p>
+<ul>
+<li>Diagnoses</li>
+<li>Clinical findings</li>
+<li>Symptoms and signs</li>
+</ul>
+<p>This enables:</p>
+<ul>
+<li>International comparability of health data</li>
+<li>Standardized reporting across systems</li>
+<li>Alignment with global health frameworks</li>
+</ul>
+<hr>
+<h3 id="observations-and-diagnostics--loinc">Observations and Diagnostics — LOINC</h3>
+<p>LOINC is used for:</p>
+<ul>
+<li>Laboratory results</li>
+<li>Clinical observations</li>
+<li>Radiological reporting</li>
+</ul>
+<p>This ensures that diagnostic data remains:</p>
+<ul>
+<li>Consistent across systems</li>
+<li>Interpretable at a national and international level</li>
+</ul>
+<hr>
+<h3 id="medicines--national-drug-list-with-icd-11-alignment">Medicines — National Drug List with ICD-11 Alignment</h3>
+<p>Bangladesh integrates:</p>
+<ul>
+<li>National drug data from DGDA</li>
+<li>Alignment with ICD-11 medicament classification</li>
+</ul>
+<p>This supports:</p>
+<ul>
+<li>Standardized prescribing</li>
+<li>Consistent pharmaceutical representation</li>
+<li>Integration with clinical workflows</li>
+</ul>
+<hr>
+<h2 id="validation-as-a-system-boundary">Validation as a System Boundary</h2>
+<p>A key architectural principle in Bangladesh’s FHIR infrastructure is:</p>
+<blockquote>
+<p><strong>Only validated data enters the national health record.</strong></p>
+</blockquote>
+<p>To enforce this, validation is performed at multiple levels:</p>
+<ul>
+<li>Structural validation against national FHIR profiles</li>
+<li>Terminology validation against approved code systems</li>
+<li>Logical validation for clinically complex representations</li>
+</ul>
+<p>This ensures that:</p>
+<ul>
+<li>Invalid or inconsistent data is rejected early</li>
+<li>National data quality remains high</li>
+<li>Interoperability does not compromise clinical correctness</li>
+</ul>
+<hr>
+<h2 id="handling-complex-clinical-representation">Handling Complex Clinical Representation</h2>
+<p>Modern classification systems such as ICD-11 introduce advanced capabilities, including postcoordination (combining multiple codes to represent clinical detail).</p>
+<p>To support this:</p>
+<ul>
+<li>Validation mechanisms are introduced to ensure correctness of such expressions</li>
+<li>Systems are guided to use standardized representations</li>
+<li>Complex clinical data remains both expressive and interoperable</li>
+</ul>
+<hr>
+<h2 id="repository-and-exchange-layer">Repository and Exchange Layer</h2>
+<p>The national FHIR infrastructure also includes a centralized repository layer that serves multiple roles:</p>
+<ul>
+<li>Storage of validated clinical data</li>
+<li>Enforcement of interoperability standards</li>
+<li>Gateway for secure data exchange</li>
+</ul>
+<p>This layer ensures that:</p>
+<ul>
+<li>Data from different systems can be integrated</li>
+<li>Only authorized and validated data is accepted</li>
+<li>National-level aggregation becomes possible</li>
+</ul>
+<hr>
+<h2 id="alignment-with-openhie-architecture">Alignment with OpenHIE Architecture</h2>
+<p>The overall system follows the <strong>OpenHIE (Open Health Information Exchange)</strong> framework.</p>
+<p>This provides:</p>
+<ul>
+<li>Modular system design</li>
+<li>Clear separation of components (registries, interoperability layer, terminology services)</li>
+<li>Scalability across national systems</li>
+</ul>
+<p>OpenHIE allows Bangladesh to:</p>
+<ul>
+<li>Integrate systems incrementally</li>
+<li>Avoid monolithic architecture</li>
+<li>Maintain long-term flexibility</li>
+</ul>
+<hr>
+<h2 id="why-this-approach-matters">Why This Approach Matters</h2>
+<p>This architecture reflects a deliberate shift toward <strong>digital public goods and open standards</strong>.</p>
+<h3 id="1-no-vendor-lock-in">1. No Vendor Lock-in</h3>
+<ul>
+<li>Systems are not dependent on proprietary platforms</li>
+<li>Components can evolve independently</li>
+</ul>
+<hr>
+<h3 id="2-national-scalability">2. National Scalability</h3>
+<ul>
+<li>Infrastructure supports population-scale deployment</li>
+<li>New systems can be integrated without redesign</li>
+</ul>
+<hr>
+<h3 id="3-international-compatibility">3. International Compatibility</h3>
+<ul>
+<li>Alignment with FHIR, ICD-11, and LOINC ensures global compatibility</li>
+<li>Enables participation in international interoperability initiatives</li>
+</ul>
+<hr>
+<h3 id="4-strong-data-governance">4. Strong Data Governance</h3>
+<ul>
+<li>Central validation ensures data quality</li>
+<li>Terminology control prevents fragmentation</li>
+<li>Interoperability remains clinically meaningful</li>
+</ul>
+<hr>
+<h3 id="5-future-ready-design">5. Future-Ready Design</h3>
+<p>Because the system is:</p>
+<ul>
+<li>Standards-based</li>
+<li>Modular</li>
+<li>Interoperable</li>
+</ul>
+<p>it can support:</p>
+<ul>
+<li>AI-driven analytics</li>
+<li>advanced clinical decision support</li>
+<li>evolving health technologies</li>
+</ul>
+<hr>
+<h2 id="conclusion">Conclusion</h2>
+<p>Bangladesh’s national FHIR infrastructure represents a significant step toward building a <strong>standards-driven, interoperable digital health ecosystem</strong>.</p>
+<p>By combining:</p>
+<ul>
+<li>FHIR for structured data exchange</li>
+<li>A centralized terminology service</li>
+<li>ICD-11, LOINC, and national drug standards</li>
+<li>OpenHIE architectural principles</li>
+</ul>
+<p>the country is establishing a foundation for a <strong>scalable, validated, and globally aligned health information system</strong>.</p>
+<hr>
+<h2 id="related-insights">Related Insights</h2>
+<ul>
+<li><a href="/insights/amar-swasthyo-health-id-bangladesh/">Understanding Health ID and Citizen Health Profiles in Bangladesh</a></li>
+<li><a href="/insights/digital-health-architecture-bangladesh/">Building Digital Health Infrastructure in Bangladesh: Standards and Architecture</a></li>
+</ul>
+
+</body>
+
+</html>
