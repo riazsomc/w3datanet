@@ -2,7 +2,7 @@
 title: "আমার স্বাস্থ্য (Amar Swasthyo): Bangladesh’s Unified Personal Health Profile and Unique Health ID System"
 date: 2026-03-17T00:00:00Z
 description: "An overview of Bangladesh’s Amar Swasthyo platform, where citizens can obtain a unique e-health ID and access their personal health records, lab results, and vaccination history through a unified digital health system."
-tags: ["Amar Swasthyo", "Digital Health Bangladesh", "Health ID", "Health Information Systems", "Public Health Infrastructure"]
+tags: ["Amar Swasthyo", "Bangladesh", "Health ID", "Health Information Systems", "Public Health Infrastructure", "Digital Health"]
 ---
 
 This article explains Bangladesh’s **Amar Swasthyo (আমার স্বাস্থ্য)** platform, a national initiative that enables citizens to obtain a **unique health ID (e-health ID)** and access their personal health records through a unified digital system.

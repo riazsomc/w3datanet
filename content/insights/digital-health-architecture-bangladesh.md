@@ -2,17 +2,7 @@
 title: "Building Digital Health Infrastructure in Bangladesh: Standards, Architecture, and Digital Public Goods"
 date: 2026-03-18
 description: "An overview of Bangladesh’s digital health architecture, highlighting interoperability standards like FHIR, centralized terminology services using Open Concept Lab, global classifications such as ICD-11 and LOINC, and the OpenHIE framework enabling scalable, vendor-neutral national systems."
-tags: [
-  "Digital Health",
-  "Bangladesh",
-  "FHIR",
-  "ICD-11",
-  "LOINC",
-  "OpenHIE",
-  "Health Informatics",
-  "Interoperability",
-  "Digital Public Goods"
-]
+tags: ["Digital Health", "Bangladesh", "FHIR", "ICD-11", "LOINC", "OpenHIE", "Health Informatics", "Health Interoperability", "Digital Public Goods"]
 draft: false
 ---
 

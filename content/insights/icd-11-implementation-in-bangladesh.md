@@ -2,7 +2,7 @@
 title: "ICD-11 Implementation in Bangladesh: Lessons from the First National Pilot"
 date: 2026-03-09
 description: "Practical lessons from Bangladesh’s early ICD-11 pilot across six hospitals, highlighting implementation challenges, system limitations, and the architectural considerations shaping the next phase of national deployment."
-tags: ["ICD-11", "Digital Health", "Health Information Systems", "Interoperability", "Health Data Standards"]
+tags: ["ICD-11", "Digital Health", "Health Information Systems", "Health Interoperability", "Health Data Standards", "Bangladesh"]
 ---
 
 This article describes Bangladesh’s early experience implementing ICD-11 across multiple hospital information systems and the practical lessons learned from the first national pilot.
