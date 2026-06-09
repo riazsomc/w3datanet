@@ -3,7 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ .Title }} | {{ .Site.Title }}</title>
+    <title>
+      {{- if .IsHome -}}
+        Dr. B. M. Riazul Islam | Digital Health &amp; AI Architecture
+      {{- else -}}
+        {{ .Title }} | {{ .Site.Title }}
+      {{- end -}}
+    </title>
     <link rel="stylesheet" href="/css/style.css?v={{ now.Unix }}">
     <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32.png">
@@ -110,7 +116,7 @@
     </script>
     <link rel="canonical" href="{{ .Permalink }}">
     <meta name="description" content="{{ with .Params.description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
-    <meta property="og:title" content="{{ .Title }} | {{ .Site.Title }}">
+    <meta property="og:title" content="{{ if .IsHome }}Dr. B. M. Riazul Islam | Digital Health &amp; AI Architecture{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}">
     <meta property="og:description" content="{{ with .Params.description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{ .Permalink }}">
@@ -118,7 +124,7 @@
     <meta property="og:image" content="https://w3datanet.com/images/og-preview.png">
     
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="{{ .Title }} | {{ .Site.Title }}">
+    <meta name="twitter:title" content="{{ if .IsHome }}Dr. B. M. Riazul Islam | Digital Health &amp; AI Architecture{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}">
     <meta name="twitter:description" content="{{ with .Params.description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
     <meta name="twitter:image" content="https://w3datanet.com/images/og-preview.png">
 </head>
