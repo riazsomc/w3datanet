@@ -136,9 +136,10 @@
     <meta name="twitter:title" content="{{ if .IsHome }}Dr. B. M. Riazul Islam | Digital Health &amp; AI Architecture{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}">
     <meta name="twitter:description" content="{{ with .Params.description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
     <meta name="twitter:image" content="https://w3datanet.com/images/og-preview.png">
-    {{- if or (eq .Kind "taxonomy") (eq .Kind "term") (and .Paginator (gt .Paginator.PageNumber 1)) }}
+    {{- if or (eq .Kind "taxonomy") (eq .Kind "term") }}
     <meta name="robots" content="noindex, follow">
     {{- end }}
+    {{ block "head_extra" . }}{{ end }}
 </head>
 <script src="/js/nav.js"></script>
 <body>
