@@ -35,6 +35,16 @@ He is actively engaged in research and technical development, with outputs inclu
 
 ---
 
+### Recent Insights
+- [Toward a Bangla RAG System for Public Health: Motivation, Architecture, and Early Findings](/insights/bangla-rag-public-health-bangladesh/)  
+- [Self-Hosted AI for Health Information: Architecture, Data Sovereignty, and Multi-Audience Access](/insights/self-hosted-ai-health-information-system-bangladesh/)  
+- [Ensuring Data Quality in Interoperable Health Systems: Validation and ICD-11 Postcoordination in Practice](/insights/health-data-validation-icd11-postcoordination/)  
+- [ICD-11 Implementation in Bangladesh: Lessons from the First National Pilot](/insights/icd-11-implementation-in-bangladesh/)  
+
+[View all insights →](/insights/)
+
+---
+
 For detailed information, please explore:
 
 * [professional background](/profile/)
