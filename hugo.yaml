@@ -1,42 +1,41 @@
 baseURL: "https://w3datanet.com/"
 languageCode: "en-us"
-title: "W3DataNet"
+title: "Dr. B. M. Riazul Islam"
+
+# Disable unused categories taxonomy
+taxonomies:
+  tag: tags
+
 pagination:
   pagerSize: 5
+
 menu:
   main:
     - name: Home
       url: /
       weight: 1
-
     - name: Profile
       url: /profile/
       weight: 2
-
     - name: Work
       url: /work/
       weight: 3
-
     - name: Projects
       url: /projects/
       weight: 4
-
     - name: Insights
-      url: /Insights/
+      url: /insights/
       weight: 5
-      
     - name: Publications
       url: /publications/
       weight: 6
-
     - name: Contact
       url: /contact/
       weight: 7
+
 params:
   description: "Professional profile of Dr. B. M. Riazul Islam — physician, digital health architect, and systems engineer."
-
   author: "Dr. B. M. Riazul Islam"
-
   social:
     github: "https://github.com/riazsomc"
     linkedin: "https://linkedin.com/in/riazsomc44"
