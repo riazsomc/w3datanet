@@ -59,3 +59,8 @@
 </section>
 
 {{ end }}
+{{ define "head_extra" }}
+{{ if gt .Paginator.PageNumber 1 }}
+<meta name="robots" content="noindex, follow">
+{{ end }}
+{{ end }}
