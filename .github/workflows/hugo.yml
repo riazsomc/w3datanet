@@ -27,6 +27,12 @@ jobs:
 
       - name: Build Site
         run: hugo --gc --minify  # Cleans up unused cache and minifies files for speed
+      - name: Debug Title Output
+        run: |
+          echo "=== Homepage title ==="
+          grep -o '<title>[^<]*</title>' public/index.html
+          echo "=== Profile title ==="
+          grep -o '<title>[^<]*</title>' public/profile/index.html
 
       - name: Publish to gh-pages
         uses: peaceiris/actions-gh-pages@v4
