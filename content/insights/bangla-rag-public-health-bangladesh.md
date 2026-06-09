@@ -8,6 +8,8 @@ tags: [
   "Health Information Systems",
   "Health Informatics"
 ]
+slug: "bangla-rag-public-health-bangladesh"
+draft: false
 ---
 
 Public health communication in Bangladesh faces a structural problem that technology alone has not yet solved.
