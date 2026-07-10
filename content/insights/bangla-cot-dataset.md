@@ -87,7 +87,7 @@ The full schema, authoring rules, and contribution process are documented in the
 
 If you work in public health, law, mathematics education, linguistics, or any of the other covered domains, and you reason in Bangla, your contribution is directly relevant — and currently rare.
 
-**GitHub repository:** [github.com/riazsomc/bangla-cot-dataset](https://github.com/riazsomc/bangla-cot-dataset)
+**GitHub repository:** [github.com/riazsomc/bangla-cot-dataset](https://github.com/riazsomc/bangla_cot_dataset)
 
 ---
 
