@@ -19,18 +19,6 @@ https://github.com/riazsomc
 
 ---
 
-### Direct Communication
-
-📧 **Email**
-
-For professional collaboration, research discussions, digital health initiatives, or technology consulting inquiries:
-
-📧 riaz.somc@w3datanet.com
-
-I typically respond to relevant messages within a reasonable timeframe.
-
----
-
 This website represents my independent professional and technical work.  
 For official government correspondence, please use appropriate institutional channels.
 
